@@ -1,0 +1,24 @@
+{
+    "name": "rob2022/uk-bank-holidays",
+    "description": "Uk Bank holiday",
+    "version": "0.1.0",
+    "license": "MIT",
+    "keywords": ["UK bank holiday"],
+    "authors": [
+        {
+            "name": "Rob Sills",
+            "email": "robertsills1985@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rob2022\\UkBankHolidays\\": "src"
+        }
+    }
+}
